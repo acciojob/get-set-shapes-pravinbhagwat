@@ -1,28 +1,28 @@
 //complete this code
 class Rectangle{
-	constructor(rect_w , rect_h) {
-		this.rect_w  = rect_w;
-		this.rect_h  = rect_h;
+	constructor(width , height) {
+		this.width  = width;
+		this.height  = height;
 	}
 
-	get rect_w() {
-	    return this.rect_w;
+	get width() {
+	    return this.width;
 	}
 	
-	get rect_h() {
-	    return this.rect_h;
+	get height() {
+	    return this.height;
 	}
 
-	set rect_w(rect_w ) {
-		this.rect_w  = width;
+	set width(width) {
+		this.width  = width;
 	}
 
-	set rect_h(rect_h ) {
-		this.rect_h  = rect_h;
+	set height(height) {
+		this.height  = height;
 	}
 
 	getArea() {
-		return this.rect_w  * this.rect_h;
+		return this.width  * this.height;
 	}
 }
 
