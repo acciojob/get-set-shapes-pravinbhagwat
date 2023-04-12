@@ -1,23 +1,23 @@
 //complete this code
 class Rectangle{
-	constructor(width , height) {
-		this.width  = width;
-		this.height  = height;
+	constructor(width, height) {
+		this.width = width;
+		this.height = height;
 	}
 
-	get width() {
+	get getWidth() {
 	    return this.width;
 	}
 	
-	get height() {
+	get getHeight() {
 	    return this.height;
 	}
 
-	set width(width) {
+	set setWidth(width) {
 		this.width  = width;
 	}
 
-	set height(height) {
+	set setHeight(height) {
 		this.height  = height;
 	}
 
@@ -29,6 +29,7 @@ class Rectangle{
 class Square extends Rectangle {
 	constructor(side) {
 		super(side, side);
+        this.side = side;
 	}
 	
 	getPerimeter() {
