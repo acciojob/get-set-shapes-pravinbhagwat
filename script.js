@@ -17,7 +17,7 @@ class Rectangle{
 		this.width = width;
 	}
 
-	set height() {
+	set height(height) {
 		this.height = height;
 	}
 
