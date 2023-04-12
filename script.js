@@ -13,6 +13,14 @@ class Rectangle{
 	    return this.height;
 	}
 
+	set width(width) {
+		this.width = width;
+	}
+
+	set height() {
+		this.height = height;
+	}
+
 	getArea() {
 		return this.width * this.height;
 	}
